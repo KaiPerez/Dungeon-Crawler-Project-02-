@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_2
 {
-    class Program
+    class Maps
     {
-        static void Main(string[] args)
-        {
-         
-        }
     }
 }
