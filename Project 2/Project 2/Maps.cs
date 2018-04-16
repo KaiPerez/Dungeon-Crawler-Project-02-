@@ -8,5 +8,23 @@ namespace Project_2
 {
     class Maps
     {
+        public bool Walls;
+
+        public Room(bool W)
+        {
+            Walls = W;
+
+        }
+
+        public bool Wall();
+        
+
+
+
+
+
+
+
     }
 }
+
