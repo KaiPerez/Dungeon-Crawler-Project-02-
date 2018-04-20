@@ -12,6 +12,11 @@ namespace Project_2
         {
             Console.WriteLine("Welcome to the dungeon! What is your name?");
 
+            string name = Console.ReadLine();
+
+            Console.WriteLine($"Welcome {name} ");
+
+            Console.ReadKey();
         }
     }
 }
