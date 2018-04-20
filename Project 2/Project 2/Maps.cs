@@ -8,24 +8,30 @@ namespace Project_2
 {
     class Maps
     {
-        public bool Walls;
+        public bool GoNorth;
+        public bool GoSouth;
+        public bool GoWest;
+        public bool GoEast;
+        public bool IsMonster;
+        public bool IsLoot;
+        public bool IsSecret;
 
-        public Room(bool W)
+        public Room(bool N, bool S, bool W, bool E, bool IsM, bool IsL, bool IsS)
         {
-            Walls = W;
-
-        }
-
-        public bool WallIsThere()
-        {
-            
-            
+            GoNorth = N;
+            GoSouth = S;
+            GoWest = W;
+            GoEast = E;
+            IsMonster = IsM;
+            IsLoot = IsL;
+            IsSecret = IsS;
         }
         
-
-
-
-
+        public int bool roomtype()
+        {
+           List
+        }
+        
 
 
 
