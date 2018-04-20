@@ -16,7 +16,11 @@ namespace Project_2
 
         }
 
-        public bool Wall();
+        public bool WallIsThere()
+        {
+            
+            
+        }
         
 
 
