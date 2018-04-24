@@ -14,9 +14,15 @@ namespace Project_2
 
             string name = Console.ReadLine();
 
-            Console.WriteLine($"Welcome {name} ");
+            Console.WriteLine($"Welcome {name}.");
 
             Console.ReadKey();
+
+
+
+
+
+
         }
     }
 }

@@ -27,12 +27,16 @@ namespace Project_2
             IsSecret = IsS;
         }
         
-        public int bool roomtype()
+       public bool RoomAndStuff()
         {
-           List
+            if (GoNorth == true)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
-        
-
 
 
     }
