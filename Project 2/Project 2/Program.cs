@@ -11,10 +11,13 @@ namespace Project_2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the dungeon! What is your name?");
+            Console.ReadLine();
 
             string name = Console.ReadLine();
 
-            Console.WriteLine($"Welcome {name} ");
+            Console.WriteLine($"Welcome {name}! ");
+
+
 
             Console.ReadKey();
         }

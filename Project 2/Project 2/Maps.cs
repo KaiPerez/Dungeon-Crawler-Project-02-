@@ -16,7 +16,7 @@ namespace Project_2
         public bool IsLoot;
         public bool IsSecret;
 
-        public Room(bool N, bool S, bool W, bool E, bool IsM, bool IsL, bool IsS)
+        public Maps(bool N, bool S, bool W, bool E, bool IsM, bool IsL, bool IsS)
         {
             GoNorth = N;
             GoSouth = S;
@@ -27,10 +27,7 @@ namespace Project_2
             IsSecret = IsS;
         }
         
-        public int bool roomtype()
-        {
-           List
-        }
+        
         
 
 
