@@ -37,9 +37,7 @@ namespace Project_2
             PrintBoard(board);
         
             Console.WriteLine("Enter a direction.");
-            
-            string direction = Console.ReadLine();
-            
+            board[2][2] = player;
 
             Console.ReadKey();
            
