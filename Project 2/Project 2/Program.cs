@@ -8,6 +8,7 @@ namespace Project_2
 {
     class Program
     {
+        
 
         static void PrintBoard(string[][] board)
         {
